@@ -30,12 +30,12 @@ const Hero = () => {
     const tl = gsap.timeline();
 
     tl.from(".hero-text", {
-      y: 150,          // start 150px below
-      opacity: 0,      // fade in
-      stagger: 0.25,   // each one comes after 0.25s
-      duration: 0.6,   // speed of animation
+      y: 150,
+      opacity: 0,
+      stagger: 0.25,
+      duration: 0.6,
       ease: "power3.out",
-      delay: 0.5,      // wait before starting
+      delay: 0.5, 
     });
   }, []);
   return (
@@ -79,16 +79,6 @@ const Hero = () => {
             </div>
 
             <div>
-              {/* <h2 className="md:text-[20px] text-[14px] font-medium text-zinc-400">
-                Frontend Developer{" "}
-                <span className="md:text-[14px] text-[12px] font-normal text-zinc-500">
-                  based in Jaipur
-                </span>
-              </h2>
-
-              <h1 className="md:text-[31px] text-[22px] font-semibold leading-tight text-zinc-400">
-                Hello, I'm Mayank Bajaj
-              </h1> */}
               <p className="md:text-xl text-[#d9ecff] relative z-10 text-xs pointer-events-none px-[2px]">
                 Hello, I'm Mayank Bajaj, a frontend developer based in Jaipur
                 with a passion for code.
@@ -117,13 +107,13 @@ const Hero = () => {
             />
             </div>
             <div className=" flex gap-5">
-              <a href="#github">
+              <a href="https://github.com/Mayank-Bajaj-22">
                 <i className="ri-github-fill md:text-2xl text-xl"></i>
               </a>
-              <a href="#linkedIn">
+              <a href="https://www.linkedin.com/in/mayank-bajaj-439988309/">
                 <i className="ri-linkedin-box-fill md:text-2xl text-xl"></i>
               </a>
-              <a href="#twitter">
+              <a href="https://x.com/MayankBajaj22?t=4IkegovJ4bB6lloZ26LjIw&s=08">
                 <i class="ri-twitter-x-line md:text-2xl text-xl"></i>
               </a>
             </div>

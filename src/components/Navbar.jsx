@@ -34,10 +34,6 @@ const Navbar = () => {
       link: "#skills",
     },
     {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
-    {
       name: "Contact",
       link: "#contact",
     },
@@ -73,7 +69,7 @@ const Navbar = () => {
         </nav>
 
         <a href="#contact" className="flex group">
-          <div className="px-5 py-2 rounded-lg bg-white text-black group-hover:bg-black-50 transition-colors duration-300">
+          <div className="px-5 py-2 rounded-lg bg-white text-black group-hover:bg-zinc-700 transition-colors duration-300">
             <span className="group-hover:text-white transition-colors duration-300">Hire me</span>
           </div>
         </a>
