@@ -114,7 +114,7 @@ const Experience = () => {
                   <div className="xl:w-4/6">
                     <div className="flex items-start">
                       <div className="absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center">
-                        <div className="absolute z-10 h-[110%] -top-10 w-14 md:w-28 bg-black" />
+                        <div className="absolute z-10 w-14 md:w-28 bg-black" />
                         <div className="gradient-line z-20 h-full" />
                       </div>
                       <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">

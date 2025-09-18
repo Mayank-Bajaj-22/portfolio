@@ -16,7 +16,7 @@ const Marquee = () => {
     
     <div id="skills" className="md:my-22 my-10 relative">
       <hr className="md:mb-22 mb-10 w-[90%] ml-[5%] text-zinc-400" />
-      <div className="w-[100dvw] overflow-hidden relative h-35">
+      <div className="w-[100dvw] overflow-hidden relative h-50 md:h-35">
         <h1 className="text-center text-4xl font-bold text-zinc-200">Tools that i have used</h1>
         <div className="marquee-box flex md:gap-12 gap-5">
           {techStackList.map((icon, index) => (
@@ -30,7 +30,7 @@ const Marquee = () => {
       </div>
 
       {/*  */}
-      <div className="w-[100dvw] overflow-hidden relative h-20">
+      <div className="w-[100dvw] overflow-hidden relative h-15 md:h-20">
         <div className="marquee-box-reverse flex md:gap-12 gap-2">
           {techStackList.map((icon, index) => (
             <LogoIcon key={index} icon={icon} />
