@@ -58,7 +58,7 @@ const Hero = () => {
 
       <div className="relative z-10 xl:mt-10 mt-24 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center">
         {/* Left: HERO Content */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 pl-4 pr-3">
           <div className="flex flex-col gap-5">
             <div className="px-[1px] overflow-hidden">
               <h1 className="hero-text md:text-[60px] text-[25px] font-bold leading-snug">
