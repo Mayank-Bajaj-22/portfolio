@@ -7,6 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
   const sectionRef = useRef(null);
+  const linkedinRef = useRef(null);
+  const aiEcommerceRef = useRef(null);
   const movieRef = useRef(null);
   const travelRef = useRef(null);
   const dribbleRef = useRef(null);
@@ -19,11 +21,13 @@ const ShowcaseSection = () => {
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
 
     // Animations for each app showcase
     const cards = [
+      linkedinRef.current,
+      aiEcommerceRef.current,
       movieRef.current,
       travelRef.current,
       dribbleRef.current,
@@ -48,7 +52,7 @@ const ShowcaseSection = () => {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
   }, []);
@@ -59,6 +63,112 @@ const ShowcaseSection = () => {
       className="w-full md:mt-20 mt-5 px-5 md:px-20 py-10 md:py-10 flex items-center justify-center"
     >
       <div className="w-full">
+        <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
+          {/* left */}
+          <div
+            ref={linkedinRef}
+            className="h-full flex flex-col justify-between xl:w-[65%]"
+          >
+            <div className="xl:h-[74vh] md:h-[50vh] h-55 relative">
+              <a
+                href="https://ai-powered-ecommerce-frontend.onrender.com/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-xl object-fit absolute inset-0 w-full h-full"
+                  src="/images/p8.png"
+                  alt="AI Ecommerce MERN"
+                />
+              </a>
+            </div>
+          </div>
+
+          {/* right */}
+          <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              1. AI Powered Ecommerce – MERN
+            </h2>
+
+            <p className="text-gray-300">
+              Smart ecommerce platform with AI-based navigation, Google
+              authentication, and complete admin dashboard for product & order
+              management.
+            </p>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Features</h3>
+              <ul className="text-gray-300 space-y-1">
+                <li>• Google OAuth Authentication</li>
+                <li>• AI Chat Navigation between pages</li>
+                <li>• Cart & Checkout System</li>
+                <li>• Order Tracking</li>
+                <li>• Admin Panel (CRUD Products)</li>
+                <li>• Role Based Access</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Tech Stack</h3>
+              <p className="text-gray-300">
+                React • Node • Express • MongoDB • Google Auth • OpenAI API •
+                Tailwind
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
+          {/* right */}
+          <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              2. LinkedIn Clone – MERN Stack
+            </h2>
+
+            <p className="text-gray-300">
+              A full-stack social platform inspired by LinkedIn with real-time
+              interactions and professional networking features.
+            </p>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Features</h3>
+              <ul className="text-gray-300 space-y-1">
+                <li>• JWT Authentication</li>
+                <li>• Post, Like, Comment</li>
+                <li>• Connection Requests</li>
+                <li>• Real-time Notifications</li>
+                <li>• Profile Management</li>
+                <li>• Cloudinary Image Upload</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Tech Stack</h3>
+              <p className="text-gray-300">
+                • React • Node • Express • MongoDB • Socket.io • Tailwind • JWT
+              </p>
+            </div>
+          </div>
+
+          {/* left */}
+          <div
+            ref={linkedinRef}
+            className="h-full flex flex-col justify-between xl:w-[65%]"
+          >
+            <div className="xl:h-[72vh] md:h-[50vh] h-55 relative">
+              <a
+                href="https://linkedin-frontend-5h6g.onrender.com/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-xl object-fit absolute inset-0 w-full h-full"
+                  src="/images/p7.png"
+                  alt="LinkedIn MERN"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="flex xl:flex-row flex-col gap-10 justify-between">
           <div
             ref={movieRef}
@@ -79,7 +189,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-5">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                Discover and explore movies & tv shows with a seamless React
+                3. Discover and explore movies & tv shows with a seamless React
                 experience.
               </h2>
               <p className="text-white-50 md:text-xl">
@@ -105,11 +215,11 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                Travel Advisor Web - APP
+                4. Travel Advisor Web - APP
               </h2>
             </div>
             <div className="project" ref={dribbleRef}>
-              <div className="xxl:h-[37vh] md:h-52 lg:h-72 h-64 relative overflow-hidden rounded-xl bg-[#222222]">
+              <div className="xl:h-[37vh] md:h-52 lg:h-72 h-64 relative overflow-hidden rounded-xl bg-[#222222]">
                 <a
                   href="https://mayank-bajaj-22.github.io/dribble-html-css-project/"
                   target="_blank"
@@ -123,7 +233,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                Dribble Clone Web - APP
+                5. Dribble Clone Web - APP
               </h2>
             </div>
           </div>
@@ -148,7 +258,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                Refokus Clone Web - APP
+                6. Refokus Clone Web - APP
               </h2>
             </div>
             <div className="project" ref={ecommerceRef}>
@@ -166,7 +276,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                React Ecommerce Web-APP
+                7. React Ecommerce Web-APP
               </h2>
             </div>
           </div>
@@ -189,7 +299,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-3">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                Minimalist Obys Agency clone with smooth GSAP animations and
+                8. Minimalist Obys Agency clone with smooth GSAP animations and
                 modern UI.
               </h2>
               <p className="text-white-50 md:text-xl">

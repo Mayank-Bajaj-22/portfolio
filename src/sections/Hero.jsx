@@ -164,7 +164,7 @@ const Hero = () => {
           </h1>
         </div>
         <div className="md:w-[20%] justify-center gap-6 w-full flex items-center justify-center px-6 py-4 rounded-lg  text-white">
-          <h2 className="text-4xl md:text-7xl font-bold">7</h2>
+          <h2 className="text-4xl md:text-7xl font-bold">8</h2>
           <h1 className="text-sm md:text-md md:w-[40%] w-[60%] font-semibold leading-snug">
             Project Complete
           </h1>

@@ -28,6 +28,10 @@ const techStackList = [
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
   {
+    name: "Express.js",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
+  {
     name: "MongoDB",
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
@@ -46,6 +50,30 @@ const techStackList = [
   {
     name: "Tailwind CSS",
     imgPath: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
+  },
+  {
+    name: "TypeScript",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Postman",
+    imgPath: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+  },
+  {
+    name: "Git",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    name: "GitHub",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  },
+  {
+    name: "Redux",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  {
+    name: "Socket.io",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
   },
 ];
 
