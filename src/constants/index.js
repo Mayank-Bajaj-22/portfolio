@@ -1,5 +1,17 @@
 const techStackList = [
   {
+    name: "Next.js",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: "Framer Motion",
+    imgPath: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+  },
+  {
+    name: "NextAuth",
+    imgPath: "https://avatars.githubusercontent.com/u/67470890?s=200&v=4",
+  },
+  {
     name: "C",
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
   },

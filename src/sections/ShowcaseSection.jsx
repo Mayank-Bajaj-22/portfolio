@@ -63,6 +63,59 @@ const ShowcaseSection = () => {
       className="w-full md:mt-20 mt-5 px-5 md:px-20 py-10 md:py-10 flex items-center justify-center"
     >
       <div className="w-full">
+
+        <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
+          {/* right */}
+          <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              1. AI Customer Support Chatbot – Next.js
+            </h2>
+
+            <p className="text-gray-300">
+              AI chatbot for websites that provides automated customer support using company-provided information, integrated with a single script tag.
+            </p>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Features</h3>
+              <ul className="text-gray-300 space-y-1">
+                <li>• Company/Shop onboarding dashboard</li>
+                <li>• Add company information for AI knowledge base</li>
+                <li>• AI-powered responses to customer queries</li>
+                <li>• Plug-and-play script tag integration for websites</li>
+                <li>• Real-time customer support chat widget</li>
+                <li>• Multi-business support architecture</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Tech Stack</h3>
+              <p className="text-gray-300">
+                • Next.js • Scalekit Auth • Gemini API • MongoDB • JavaScript • TailwindCSS
+              </p>
+            </div>
+          </div>
+
+          {/* left */}
+          <div
+            ref={linkedinRef}
+            className="h-full flex flex-col justify-between xl:w-[65%]"
+          >
+            <div className="xl:h-[72vh] md:h-[50vh] h-55 relative">
+              <a
+                href="https://ai-support-chatbot-jade.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-xl object-fit absolute inset-0 w-full h-full"
+                  src="/images/p9.png"
+                  alt="AI Support Chatbot"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+
         <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
           {/* left */}
           <div
@@ -86,7 +139,7 @@ const ShowcaseSection = () => {
           {/* right */}
           <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
             <h2 className="text-2xl md:text-3xl font-bold">
-              1. AI Powered Ecommerce – MERN
+              2. AI Powered Ecommerce – MERN
             </h2>
 
             <p className="text-gray-300">
@@ -121,7 +174,7 @@ const ShowcaseSection = () => {
           {/* right */}
           <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
             <h2 className="text-2xl md:text-3xl font-bold">
-              2. LinkedIn Clone – MERN Stack
+              3. LinkedIn Clone – MERN Stack
             </h2>
 
             <p className="text-gray-300">
@@ -181,7 +234,7 @@ const ShowcaseSection = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="rounded-xl object-cover rounded-xl absolute inset-0"
+                  className="object-cover rounded-xl absolute inset-0"
                   src="/images/p1.png"
                   alt="React Movie APP"
                 />
@@ -189,7 +242,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-5">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                3. Discover and explore movies & tv shows with a seamless React
+                4. Discover and explore movies & tv shows with a seamless React
                 experience.
               </h2>
               <p className="text-white-50 md:text-xl">
@@ -215,7 +268,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                4. Travel Advisor Web - APP
+                5. Travel Advisor Web - APP
               </h2>
             </div>
             <div className="project" ref={dribbleRef}>
@@ -233,7 +286,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                5. Dribble Clone Web - APP
+                6. Dribble Clone Web - APP
               </h2>
             </div>
           </div>
@@ -258,7 +311,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                6. Refokus Clone Web - APP
+                7. Refokus Clone Web - APP
               </h2>
             </div>
             <div className="project" ref={ecommerceRef}>
@@ -276,7 +329,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                7. React Ecommerce Web-APP
+                8. React Ecommerce Web-APP
               </h2>
             </div>
           </div>
@@ -291,7 +344,7 @@ const ShowcaseSection = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="rounded-xl object-cover rounded-xl absolute inset-0"
+                  className="rounded-xl object-cover absolute inset-0"
                   src="/images/p6.png"
                   alt="Obys Agency Clone"
                 />
@@ -299,7 +352,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-3">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                8. Minimalist Obys Agency clone with smooth GSAP animations and
+                9. Minimalist Obys Agency clone with smooth GSAP animations and
                 modern UI.
               </h2>
               <p className="text-white-50 md:text-xl">
