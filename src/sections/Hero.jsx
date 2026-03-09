@@ -27,7 +27,7 @@ gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
   const handleDownload = () => {
-    fetch("/images/mayank-cv.pdf")
+    fetch("/images/Mayank_Bajaj_Resume.pdf")
       .then((response) => response.blob())
       .then((blob) => {
         const link = document.createElement("a");
@@ -163,7 +163,7 @@ const Hero = () => {
             Years of Experience
           </h1>
         </div>
-        <div className="md:w-[20%] justify-center gap-6 w-full flex items-center justify-center px-6 py-4 rounded-lg  text-white">
+        <div className="md:w-[20%] gap-6 w-full flex items-center justify-center px-6 py-4 rounded-lg  text-white">
           <h2 className="text-4xl md:text-7xl font-bold">8</h2>
           <h1 className="text-sm md:text-md md:w-[40%] w-[60%] font-semibold leading-snug">
             Project Complete
