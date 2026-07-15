@@ -4,20 +4,16 @@ const techStackList = [
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
-    name: "Framer Motion",
-    imgPath: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+    name: "React",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
-    name: "NextAuth",
-    imgPath: "https://avatars.githubusercontent.com/u/67470890?s=200&v=4",
+    name: "TypeScript",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
-    name: "C",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-  },
-  {
-    name: "Java",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    name: "JavaScript",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
     name: "HTML",
@@ -28,12 +24,16 @@ const techStackList = [
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
   {
-    name: "JavaScript",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    name: "Tailwind CSS",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
-    name: "React",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    name: "Framer Motion",
+    imgPath: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+  },
+  {
+    name: "GSAP",
+    imgPath: "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg",
   },
   {
     name: "Node.js",
@@ -44,28 +44,40 @@ const techStackList = [
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   },
   {
+    name: "PostgreSQL",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
+    name: "Prisma ORM",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+  },
+  {
     name: "MongoDB",
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
   {
-    name: "GSAP",
-    imgPath: "https://w7.pngwing.com/pngs/94/51/png-transparent-gsap-greensock-hd-logo-thumbnail.png",  
+    name: "Redis",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
   },
   {
-    name: "ScrollTrigger",
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png?20210521171500", 
+    name: "Docker",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   },
   {
-    name: "Locomotive Scroll",
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png?20210521171500",
+    name: "JWT Authentication",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
   },
   {
-    name: "Tailwind CSS",
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
+    name: "OAuth",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
   },
   {
-    name: "TypeScript",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    name: "NextAuth",
+    imgPath: "https://avatars.githubusercontent.com/u/67470890?s=200&v=4",
+  },
+  {
+    name: "Socket.io",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
   },
   {
     name: "Postman",
@@ -84,8 +96,12 @@ const techStackList = [
     imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
   },
   {
-    name: "Socket.io",
-    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+    name: "Java",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+  },
+  {
+    name: "C",
+    imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
   },
 ];
 

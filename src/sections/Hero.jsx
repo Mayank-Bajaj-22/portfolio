@@ -27,7 +27,7 @@ gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
   const handleDownload = () => {
-    fetch("/images/Mayank_Bajaj_Resume.pdf")
+    fetch("/images/resume_mayank_bajaj.pdf")
       .then((response) => response.blob())
       .then((blob) => {
         const link = document.createElement("a");

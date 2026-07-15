@@ -65,10 +65,63 @@ const ShowcaseSection = () => {
       <div className="w-full">
 
         <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
+          {/* left */}
+          <div
+            ref={linkedinRef}
+            className="h-full flex flex-col justify-between xl:w-[65%]"
+          >
+            <div className="xl:h-[80vh] md:h-[50vh] h-55 relative">
+              <a
+                href="https://rydex-vehicle-booking-website.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-xl object-fit absolute inset-0 w-full h-full"
+                  src="/images/rydex1.png"
+                  alt="RYDEX - Full Stack"
+                />
+              </a>
+            </div>
+          </div>
+
           {/* right */}
           <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
             <h2 className="text-2xl md:text-3xl font-bold">
-              1. AI Customer Support Chatbot – Next.js
+              1. RYDEX - Vehicle Booking Platform
+            </h2>
+
+            <p className="text-gray-300">
+              Smart Vehicle Booking Platform with real-time ride tracking, secure authentication, online payments, and a multi-role dashboard for users and drivers.
+            </p>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Features</h3>
+              <ul className="text-gray-300 space-y-1">
+                <li>• Secure Authentication (Auth.js + JWT)</li>
+                <li>• Real-Time Ride Tracking (Socket.IO)</li>
+                <li>• Driver Video KYC Verification</li>
+                <li>• Vehicle Booking & Ride Management</li>
+                <li>• Online Payment Integration (Razorpay) </li>
+                <li>• User & Driver Dashboards</li>
+                <li>• Role-Based Access Control</li>
+                <li>• Booking History & Ride Status</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Tech Stack</h3>
+              <p className="text-gray-300">
+                • Next.js • Node.js • Express • MongoDB • Socket.IO • Auth.js • Razorpay • ZEGOCLOUD • Framer Motion
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex xl:flex-row flex-col gap-8 justify-between mb-25">
+          {/* right */}
+          <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              2. AI Customer Support Chatbot – Next.js
             </h2>
 
             <p className="text-gray-300">
@@ -139,7 +192,7 @@ const ShowcaseSection = () => {
           {/* right */}
           <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
             <h2 className="text-2xl md:text-3xl font-bold">
-              2. AI Powered Ecommerce – MERN
+              3. AI Powered Ecommerce – MERN
             </h2>
 
             <p className="text-gray-300">
@@ -174,7 +227,7 @@ const ShowcaseSection = () => {
           {/* right */}
           <div className="xl:w-[35%] bg-[#111] p-4 rounded-xl space-y-6 hover:bg-[#181818] transition-all duration-300">
             <h2 className="text-2xl md:text-3xl font-bold">
-              3. LinkedIn Clone – MERN Stack
+              4. LinkedIn Clone – MERN Stack
             </h2>
 
             <p className="text-gray-300">
@@ -242,7 +295,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-5">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                4. Discover and explore movies & tv shows with a seamless React
+                5. Discover and explore movies & tv shows with a seamless React
                 experience.
               </h2>
               <p className="text-white-50 md:text-xl">
@@ -268,7 +321,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                5. Travel Advisor Web - APP
+                6. Travel Advisor Web - APP
               </h2>
             </div>
             <div className="project" ref={dribbleRef}>
@@ -286,7 +339,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                6. Dribble Clone Web - APP
+                7. Dribble Clone Web - APP
               </h2>
             </div>
           </div>
@@ -311,7 +364,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                7. Refokus Clone Web - APP
+                8. Refokus Clone Web - APP
               </h2>
             </div>
             <div className="project" ref={ecommerceRef}>
@@ -329,7 +382,7 @@ const ShowcaseSection = () => {
                 </a>
               </div>
               <h2 className="text-lg md:text-xl lg:text-2xl font-semibold mt-5">
-                8. React Ecommerce Web-APP
+                9. React Ecommerce Web-APP
               </h2>
             </div>
           </div>
@@ -352,7 +405,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="space-y-5 mt-3">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                9. Minimalist Obys Agency clone with smooth GSAP animations and
+                10. Minimalist Obys Agency clone with smooth GSAP animations and
                 modern UI.
               </h2>
               <p className="text-white-50 md:text-xl">
